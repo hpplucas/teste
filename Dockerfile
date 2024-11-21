@@ -3,7 +3,6 @@ FROM quay.io/keycloak/keycloak:22.0.1
 # Set environment variables for Keycloak configuration
 ENV KC_HEALTH_ENABLED=true
 ENV KC_METRICS_ENABLED=true
-ENV KC_DB=dev-file
 
 # Expose the necessary ports
 EXPOSE 8080
