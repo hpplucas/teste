@@ -7,3 +7,5 @@ ENV KC_METRICS_ENABLED=true
 
 # Run Keycloak in development mode e execute o script após a inicialização
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh", "start-dev"]
+
+ENV KC_PROXY=edge
