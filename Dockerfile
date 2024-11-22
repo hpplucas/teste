@@ -6,4 +6,4 @@ ENV KC_METRICS_ENABLED=true
 # ENV KC_DB=dev-file
 
 # Run Keycloak in development mode e execute o script após a inicialização
-ENTRYPOINT ["/opt/keycloak/bin/kc.sh", "start-dev"]
+ENTRYPOINT ["/opt/keycloak/bin/kc.sh", "start"]
